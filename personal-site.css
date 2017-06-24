@@ -1,32 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
 
 body {
-    background-color: #CBDADE;
+    background-color: #EFEFEF;
     font-family: "Inconsolata", monospace; 
     color: black;
-    padding: 32px 3rem 48px;
-}
-
-body>div {
-    max-width: 900px;
-    margin: 0 auto; /*centering the entire div within the body*/
+    padding: 32px 200px 48px;
 }
 
 h1 {
     text-align: center;
     font-size: 24px;
+    font-weight: lighter;
 }
 
 h2 {
     font-size: 16px;
+    font-weight: lighter;
 }
 
 h3 {
     font-size: 14px;
+    font-weight: lighter;
 }
 
 h4 {
     font-size: 14px;
+    font-weight: lighter;
 }
 
 div {
@@ -43,6 +42,6 @@ a:hover {
 }
 
 .work--body {
-    color:#656565;
+    color: #656565;
     padding-top: 0px;
 }
