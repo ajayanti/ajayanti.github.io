@@ -21,11 +21,16 @@ h2 {
 h3 {
     font-size: 14px;
     font-weight: lighter;
+    clear: both;
 }
 
 h4 {
     font-size: 14px;
     font-weight: lighter;
+}
+
+p {
+    margin-bottom: 0rem;
 }
 
 div {
@@ -44,4 +49,16 @@ a:hover {
 .work--body {
     color: #656565;
     padding-top: 0px;
+}
+
+.work--body img {
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    margin-bottom: .375rem;
+    width:96px;
+    height:96px;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
