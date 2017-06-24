@@ -4,7 +4,12 @@ body {
     background-color: #CBDADE;
     font-family: "Inconsolata", monospace; 
     color: black;
-    padding: 32px 200px 48px;
+    padding: 32px 3rem 48px;
+}
+
+body>div {
+    max-width: 900px;
+    margin: 0 auto; /*centering the entire div within the body*/
 }
 
 h1 {
