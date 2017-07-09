@@ -1,49 +1,150 @@
-@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #EFEFEF;
-    font-family: "Inconsolata", monospace; 
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
     color: black;
-    padding: 32px 200px 48px;
+    margin: 0;
+}
+
+.body--padding {
+    padding: 5% 27.5%;
+}
+
+.section--heading {
+    padding: 5% 27.5%;
+}
+
+.top--logo img {
+    height: 3rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: grey;
+}
+
+h4 a:hover {
+    box-shadow: 14px 14px 27px #222222;
 }
 
 h1 {
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 32px;
     font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: #fccdd3;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+li {
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    color: #00303F;
+    margin: 0;
+    text-decoration: none;
+    padding: 1rem 3rem;
+}
+
+li>a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fccdd3;
+    text-align: center;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     clear: both;
 }
 
 h4 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
+    line-height: 1.5rem;
 }
 
 p {
     margin-bottom: 0rem;
+    line-height: 1rem;
 }
 
 div {
-    padding-bottom: 12px;
-    padding-top:0px;
+    padding-top: 0;
 }
 
-a {
+.hero--main {
+    background-color: #6534ff;
+    background-position: center;
+    position: relative;
+}
+
+.hero--main img {
+    position: relative;
+    width: 87.5vw;
+}
+
+.profile--info {
+    background-color: white;
+    background-position: center;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.profile--info h4 {
+    text-align: center;
+    color: #6534ff;
+    font-size: 48px;
+}
+
+.main-title {
+    color:black;
+}
+
+.projects {
+    background-color: #bbc4ef;
+}
+
+.work {
+    background-color: white;
     color: black;
 }
 
-a:hover {
-    color: grey;
+.contact {
+    background-color: #6534ff;
+    color: white;
+}
+
+.contact h2 {
+    color: white;
 }
 
 .work--body {
@@ -51,14 +152,118 @@ a:hover {
     padding-top: 0px;
 }
 
+.work--body>a:first-child {
+    float: left;
+}
+
 .work--body img {
     border-radius: 50%;
-    z-index: 1;
-    position: relative;
     margin-bottom: .375rem;
     width:96px;
     height:96px;
-    float: left;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
+
+.flex--box {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex--box>div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flex--box>div:nth-child(2) {
+    flex: 6;
+}
+
+.flex--box>div>div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex--box>div:first-child>div:first-child {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5rem;
+}
+
+div:first-child>.square {
+    margin-left: 20px;
+}
+
+div:last-child>.square {
+    margin-right: 20px;
+}
+
+
+.flex--box--projects {
+    display: flex;
+    width: 100vh;
+    height: 400rem;
+    flex-direction: column;
+}
+
+.flex--box--projects>div {
+    flex: 1;
+    height: 200rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+
+.triangle {
+    width: 1px;
+    height: 1px;
+    border: 100px solid transparent;
+    border-top-color: black;
+    border-bottom-color: goldenrod;
+    transform: scale(2);
+}
+
+.triangle--inverse {
+    width: 1px;
+    height: 1px;
+    border: 100px solid transparent;
+    border-left-color: black;
+    border-right-color: goldenrod;
+    transform: scale(2);
+}
+
+.circle {
+    transition: 300ms box-shadow ease-in-out;
+    box-shadow: 0 0 0 cyan;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background-color: coral;
+}
+
+.circle:hover {
+    box-shadow: 14px 14px 27px cyan;
+}
+
+.square {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+} 
+
+.square:hover {
+    text-shadow: 8px 8px 16px #808080;
+}
+
+*/
+

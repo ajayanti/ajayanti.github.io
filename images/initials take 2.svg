@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1343px" height="734px" viewBox="0 0 1343 734" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="Group-3" transform="translate(262.000000, 237.000000)">
+                <polygon id="Triangle-3" fill="#FCCDD3" points="124.5 0 248 214 1 214"></polygon>
+                <polygon id="Triangle" fill="#BBC4EF" points="124.5 0 124.5 214 0.5 214"></polygon>
+            </g>
+            <g id="Group-2" transform="translate(534.000000, 237.000000)">
+                <rect id="Rectangle-4" fill="#BBC4EF" x="124" y="0" width="100" height="214"></rect>
+                <polygon id="Triangle" fill-opacity="0.6" fill="#62BCFA" transform="translate(112.000000, 107.000000) scale(-1, 1) translate(-112.000000, -107.000000) " points="224 0 224 214 0 214"></polygon>
+            </g>
+            <g id="Group" transform="translate(782.000000, 237.000000)">
+                <path d="M0,107 C0,166.094468 47.9055318,214 107,214 C166.094468,214 214,166.094468 214,107 C214,47.9055318 166.094468,-2.84217094e-14 107,-2.84217094e-14 L107,107 L2.37587727e-14,107 Z" id="Combined-Shape" fill="#FCCDD3"></path>
+                <rect id="Rectangle" fill-opacity="0.6" fill="#62BCFA" x="107" y="0" width="107" height="107"></rect>
+            </g>
+            <circle id="Oval-2" stroke="#BBC4EF" stroke-width="8" cx="186" cy="166" r="32"></circle>
+            <circle id="Oval-2" stroke="#BBC4EF" stroke-width="8" cx="840" cy="536" r="16"></circle>
+            <circle id="Oval-2" stroke="#BBC4EF" stroke-width="8" cx="1178" cy="196" r="16"></circle>
+            <rect id="Rectangle-5" stroke="#BBC4EF" stroke-width="8" x="101" y="540" width="87" height="65"></rect>
+            <rect id="Rectangle-5" stroke="#FCCDD3" stroke-width="8" x="121" y="558" width="87" height="65"></rect>
+            <rect id="Rectangle-5" stroke="#FCCDD3" stroke-width="8" transform="translate(1159.716177, 141.481830) rotate(33.000000) translate(-1159.716177, -141.481830) " x="1116.21618" y="108.98183" width="87" height="65"></rect>
+            <polygon id="Triangle-4" stroke="#62BCFA" stroke-width="8" points="1159 570 1191 634 1127 634"></polygon>
+            <polygon id="Triangle-4" stroke="#62BCFA" stroke-width="8" transform="translate(575.959551, 42.959551) rotate(23.000000) translate(-575.959551, -42.959551) " points="575.959551 10.9595514 607.959551 74.9595514 543.959551 74.9595514"></polygon>
+            <polygon id="Triangle-4" stroke="#62BCFA" stroke-width="8" transform="translate(488.979776, 663.979776) rotate(60.000000) translate(-488.979776, -663.979776) " points="488.979776 647.979776 504.979776 679.979776 472.979776 679.979776"></polygon>
+        </g>
+    </g>
+</svg>
